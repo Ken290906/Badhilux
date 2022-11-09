@@ -4,20 +4,62 @@ div.ex1 {
     height: 200px;
     text-align: center;
     background-color: #e6f4f3;
-    font-size: 30px;
+    font-size: 27px;
 }
-
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+  
+li {
+    display: inline;  
+    background-color: #26c2e7;
+}
+
+.Task-bar1 {
     overflow: hidden;
     background-color: #26c2e7;
 }
-li {
+
+.Task-bar1 {
     float: left;
 }
+
+.Task-bar2 {
+    overflow: hidden;
+    background-color: #26c2e7;
+}
+
+.Task-bar2 {
+    float: left;
+}
+
+.SignIn { 
+    display: inline;
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    background-color: #26c2e7;
+}
+
+.SignUp {
+    display: inline;
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    background-color: #26c2e7;
+}
+
+.SignIn {
+    float: left;
+}
+
+.SignUp {
+    float: left;
+}
+
 li a {
     display: block;
     color: white;
@@ -26,9 +68,16 @@ li a {
 }
 
 li:hover {
-    background-color: #111; ;
+    background-color: #111;
 }
 
+.SignIn:hover {
+    background-color: #111;
+}
+
+.SignUp:hover {
+    background-color: #111;
+}
 
 div.ex2 {
     position: fixed;
@@ -37,11 +86,12 @@ div.ex2 {
     left: 0;
     padding-left: 8px;
     padding-right: 8px;
-    
 }
 
+
 .search-box {
-    font-size: large;
+    font-size: small;
     width: 25%;
-    padding: 5px 10px;
+    padding: 5px 20px 5px 10px; 
+    border-radius: 5px;
 }
