@@ -1,16 +1,15 @@
 .Header {
     text-align: center;
-    background-color: aqua;
+    background-color: #02faf9;
     width: 100%;
     height: 100px;
 }
 
 .negative {
     background-color: #0a8d95;
-    color: #fff;
-    display: flex;
+    display: column;
     height: 35px;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -19,12 +18,24 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 
-li {
-    display: inline;
-    background-color: aqua;
-    padding: 0;
-    justify-content: space-between;
+li a {
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 18px;
 }
 
+.Btn1 {
+    float: left;
+    padding-left: 20px;
+}
+
+.Btn2 {
+    float: right;
+    padding-right: 20px;
+}
