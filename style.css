@@ -39,3 +39,7 @@ li a {
     float: right;
     padding-right: 20px;
 }
+
+li:hover {
+    background-color: black;
+}
