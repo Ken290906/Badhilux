@@ -81,6 +81,14 @@
     line-height: 46px;
 }
 
+#header-search-place {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+
+
 #slider {
 
 }
